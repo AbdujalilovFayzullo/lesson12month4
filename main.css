@@ -1,0 +1,38 @@
+body{
+    background-color: bisque;
+}
+.form{
+    display: flex;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.select{
+    width: 200px;
+    padding: 10px;
+    background-color: gray;
+    color: red;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: red;
+}
+.btn{
+    width: 100px;
+    font-size: 20px;
+    color: red;
+    border-radius: 10px;
+    background-color: blue;
+}
+.btn:active{
+    opacity: 0.8;
+}
